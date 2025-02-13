@@ -1,16 +1,14 @@
-
-import './App.css';
 import Consumer from './Consumer';
 import { Provider } from './Provider';
 import Counter from './Counter';
-import Mounting from './mounting';
+import Mounting from './Mounting';
 import Useref from './Useref';
+import WishList from './WishList';
 
 
 function App() {
-
   return (
-    <div className="App">
+    <div >
       <Mounting />
    
      <Counter />
@@ -20,6 +18,7 @@ function App() {
      </Provider>
 
      <Useref />
+     <WishList />
     </div>
   );
 }
