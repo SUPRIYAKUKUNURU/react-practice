@@ -2,9 +2,9 @@ import React,{useReducer} from "react";
 
 const reducer = (state ,action) =>{
     switch (action.type){
-        case "increment":
+        case "Increment":
             return {count:state.count + action.payload};
-        case "decrement":
+        case "Decrement":
             return {count: state.count - 1}; 
         case "reset":
             return{count:0};
