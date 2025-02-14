@@ -7,7 +7,9 @@ function Consumer(){
 
     return(
         <>
-        {user?(<h2>Welcome ,{user.name} {user.email}</h2>):(<h2>Please Login</h2>)}
+        <div style={{textAlign:"center"}}>
+        {user?(<h4>Welcome ,{user.name}</h4>):(<h2>Please Login</h2>)}
+        </div>
         </>
     )
 }
