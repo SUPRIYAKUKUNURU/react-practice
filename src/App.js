@@ -4,6 +4,7 @@ import Counter from './Counter';
 import Mounting from './Mounting';
 import Useref from './Useref';
 import WishList from './WishList';
+import UseState from './UseState';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
 
      <Useref />
      <WishList />
+
+     <UseState />
     </div>
   );
 }
