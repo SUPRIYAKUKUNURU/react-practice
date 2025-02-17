@@ -41,17 +41,18 @@ function WishList() {
               key={product.id}
               className="card p-3"
               style={{
-                width: "180px",
+                width: "200px",
                 border: "1px solid #ddd",
                 borderRadius: "5px",
                 textAlign: "center",
-                padding: "10px",
+                padding: "20px",
                 backgroundColor: "#f9f9f9",
               }}
             >
               <h3>Title: {product.title.slice(0, 8)}</h3>
               <h3>Price: ${product.price}</h3>
-              <img src={product.image} alt={product.title} width="100" />
+              <img src={product.image} alt={product.title} style={{width:"100px",height:"100px",margin:"auto"}} />
+              <button className="btn btn-success">Add to cart</button>
             </div>
           ))}
         </div>
