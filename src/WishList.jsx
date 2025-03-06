@@ -49,7 +49,7 @@ function WishList() {
                 border: "1px solid #ddd",
                 borderRadius: "5px",
                 textAlign: "center",
-                padding: "20px",
+                padding: "25px",
                 backgroundColor: "#f9f9f9",
               }}
             >
