@@ -26,9 +26,9 @@ function WishList() {
       <div style={{ textAlign: "center", padding: "20px" }}>
         <h2>Topic: UseState (Conditional Rendering)</h2>
 
-        {error && <p style={{ color: "red" }}>{error}</p>} {/* Show error if fetch fails */}
+        {error && <p style={{ color: "red" }}>{error}</p>}
 
-        {/* Grid container */}
+        
         <div
           style={{
             display: "grid",
