@@ -53,7 +53,7 @@ function WishList() {
                 backgroundColor: "#f9f9f9",
               }}
             >
-              <h3>Title: {product.title.slice(0, 6)}</h3>
+              <h3>Title: {product.title.slice(0, 8)}</h3>
               <h3>Price: ${product.price}</h3>
               <img
                 src={product.image}
