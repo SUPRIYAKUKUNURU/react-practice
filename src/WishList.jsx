@@ -46,7 +46,7 @@ function WishList() {
               className="card p-3"
               style={{
                 width: "200px",
-                border: "1px solid #ddd",
+                border: "2px solid #ddd",
                 borderRadius: "5px",
                 textAlign: "center",
                 padding: "25px",
